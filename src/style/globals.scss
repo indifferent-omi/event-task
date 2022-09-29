@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+/* Browser Resets */ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span,a{
+  display: inline-block;
+}
+a{
+  text-decoration: underline;
+}
+ul{
+  list-style: none;
+}
+
+/* Global Styles */ 
+
+.text-gradient-purple-pink{
+  background: linear-gradient(90deg, #8456EC -24.2%, #E87BF8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
